@@ -1,0 +1,8 @@
+! Title: Remove Facebook Login Requirement
+! Last modified: Sat, 22 Mar 2025 13:40:00 +0000
+! Magic Code Written by: u/AchernarB
+!---------------The Magic Code---------------!
+facebook.com##+js(trusted-click-element, body > div[id^="mount"] #scrollview ~ div div[role="button"]:has(> div[data-visualcompletion="ignore"]) )
+facebook.com##div[id^="mount"] div:not([id]):not([class]):not([style]) > div[data-nosnippet]
+facebook.com##+js(aeld, scroll)
+facebook.com##body > div[class*="__fb-light-mode"]
